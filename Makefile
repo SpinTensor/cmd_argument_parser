@@ -1,5 +1,7 @@
 include Make.inc
 
+OUTLIB = ./libcmdopt.a
+
 all: $(OUTLIB)
 
 $(OUTLIB): cmd_opt_parser.o \
