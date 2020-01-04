@@ -22,9 +22,9 @@ runtest: $(OUTLIB)
 	(cd test; make runtest)
 
 clean:
-	rm -f *.o *.mod 
+	-rm -f *.o *.mod 
 	(cd test; make clean)
 
 distclean: clean
-	rm -f $(OUTLIB)
+	-rm -f $(OUTLIB)
 	(cd test; make distclean)

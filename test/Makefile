@@ -55,7 +55,7 @@ test_get_cmd_opt.o: test_get_cmd_opt.F90
 PHONY: test clean distclean
 
 clean:
-	rm -f *.o *.mod
+	-rm -f *.o *.mod
 
 distclean: clean
-	rm -f *.x
+	-rm -f *.x
