@@ -1,4 +1,4 @@
-include Make.include
+include Make.inc
 
 all: $(OUTLIB)
 
